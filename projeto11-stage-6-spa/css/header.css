@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-left: 7.2rem;
+    padding: 4rem 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo {
+    width: 4.9rem;
+    height: 4.2rem;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3.2rem;
+
+}
+.menu .active{
+    font-weight: bold;
+}
+.menu ul a{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.8rem;
+}

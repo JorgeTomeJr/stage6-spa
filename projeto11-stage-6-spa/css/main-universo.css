@@ -1,0 +1,32 @@
+.universo-home{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/mountains-universe-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: #fff;
+    padding-left: 10.2rem;
+}
+.universo-home .text-destaque {
+    width: 64.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}  
+.universo-home .text-destaque h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+} 
+.universo-home .text-destaque p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
